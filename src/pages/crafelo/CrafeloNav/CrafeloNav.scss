@@ -7,9 +7,6 @@
   width: 90%;
   height: 20vh;
 
-  &__logo {
-  }
-
   &__list {
     display: flex;
     align-items: center;
@@ -19,7 +16,19 @@
     color: white;
     font-weight: 600;
     font-size: 1.8rem;
-    line-height: 2.7rem;
+    cursor: pointer;
+
+    p {
+      transition: all 0.2s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      &:active {
+        transform: scale(0.98);
+      }
+    }
   }
 }
 
