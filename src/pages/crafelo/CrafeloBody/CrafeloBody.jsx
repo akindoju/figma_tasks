@@ -30,7 +30,8 @@ const CrafeloBody = () => {
         </div>
       </div>
 
-      <div className="crafeloBody__right">
+      {/* Grid system */}
+      {/* <div className="crafeloBody__right">
         <div className="crafeloBody__right--1 crafeloBody__right--div">
           <img src={img1} alt="img1" />
         </div>
@@ -47,6 +48,24 @@ const CrafeloBody = () => {
           <img src={img5} alt="img5" />
         </div>
         <div className="crafeloBody__right--6">
+          <img src={img6} alt="img6" />
+        </div>
+      </div> */}
+
+      {/* Flexbox system */}
+      <div className="crafeloBody__right">
+        <div className="crafeloBody__right--top">
+          <div className="crafeloBody__right--top-left">
+            <img src={img1} alt="img1" />
+          </div>
+          <div className="crafeloBody__right--top-right">
+            <img src={img2} alt="img2" />
+            <img src={img3} alt="img3" />
+          </div>
+        </div>
+        <div className="crafeloBody__right--bottom">
+          <img src={img4} alt="img4" />
+          <img src={img5} alt="img5" />
           <img src={img6} alt="img6" />
         </div>
       </div>
